@@ -81,7 +81,7 @@ metrics:
   - name: new_customers
     label: New Customers
     model: ref('customers')
-    description: "The number of paid customers using the product"
+    description: "test1"
 
     type: count
     sql: customer_id # superfluous here, but shown as an example
@@ -103,7 +103,7 @@ metrics:
   - name: total_orders
     label: Total orders
     model: ref('orders')
-    description: "Total order amount"
+    description: "test2"
 
     type: sum
     sql: amount

@@ -1,4 +1,4 @@
-with orders as (11
+with orders as (
 
     select * from {{ ref('neworder') }}
 
